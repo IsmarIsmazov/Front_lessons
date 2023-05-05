@@ -1,0 +1,59 @@
+.one {
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(57, 179, 114);
+    color: #FFF;
+    border: 5px solid #00ffff;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+.parent {
+    font-size: 200%;
+    width: 50%;
+}
+
+.parent div {
+    font-size: 2em;
+}
+
+.parent div p {
+    font-size: 2em;
+}
+
+.rel {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: rgba(166, 70, 70, 0.32);
+}
+
+.rel .child-1 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 250px;
+    height: 250px;
+    background-color: #2e636e;
+    z-index: 1;
+}
+
+.rel .child-2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: #2e6e2e;
+    border-radius: 50%;
+}
